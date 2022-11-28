@@ -1,0 +1,98 @@
+.custom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: $tablet){
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .select-color {
+        max-width: 277px;
+
+
+        .select-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .select-name {
+            font-size: 1.235rem;
+            cursor: pointer;
+        }
+
+        .selected {
+            color: $yellow;
+        }
+
+        .color-set {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+
+            .color-set-wrapper {
+                display: flex;
+                gap: 2rem;
+            }
+
+            .color-picker {
+                width: 55px;
+                height: 55px;
+                transform: skew(-15deg);
+                border: 4px solid $white;
+                cursor: pointer;
+
+                .active {
+                    width: 20px;
+                    height: 20px;
+                    background: white;
+                }
+            }
+
+            .red {
+                background: $red;
+            }
+            .blue {
+                background: $blue;
+            }
+            .black {
+                background: $black;
+            }
+            .yellow {
+                background: $yellow;
+            }
+            .grey {
+                background: $grey;
+            }
+            .white {
+                background: $white;
+            }
+        }
+    }
+
+    .product {
+        position: relative;
+
+        @media screen and (min-width: $tablet){
+            max-width: 992px;
+        }
+
+        .product-name {
+            font-size: 3rem;
+            font-weight: 600;
+            position: absolute;
+            z-index: -1;
+
+
+            @media screen and (min-width: 992px){
+                font-size: 10rem;
+                right: 0;
+                top: -7rem;
+            }
+        }
+    }
+}
