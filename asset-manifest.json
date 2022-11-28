@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lamborghini/static/css/main.c20240d4.css",
+    "main.js": "/lamborghini/static/js/main.c07543dd.js",
+    "index.html": "/lamborghini/index.html",
+    "main.c20240d4.css.map": "/lamborghini/static/css/main.c20240d4.css.map",
+    "main.c07543dd.js.map": "/lamborghini/static/js/main.c07543dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c20240d4.css",
+    "static/js/main.c07543dd.js"
+  ]
+}
